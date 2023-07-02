@@ -1,0 +1,27 @@
+/* Custom CSS for removing white space on mobile */
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+    overflow: hidden;
+  }
+
+  .cp_embed_wrapper {
+    height: 100vh !important;
+  }
+
+  .cp_embed_iframe {
+    height: 100% !important;
+  }
+}
