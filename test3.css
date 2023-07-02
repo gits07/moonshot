@@ -19,9 +19,14 @@
 
   .cp_embed_wrapper {
     height: 100vh !important;
+    resize: none !important;
   }
 
   .cp_embed_iframe {
     height: 100% !important;
+  }
+
+  .cp_embed_wrapper iframe {
+    pointer-events: none !important;
   }
 }
